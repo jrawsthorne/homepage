@@ -14,8 +14,8 @@ fetch('https://api.github.com/users/jrawsthorne/repos')
           let div = document.createElement('div');
           div.innerHTML = `
           <h3>
-            <a href="${repo.html_url}">${repo.name}</a> 
-            <small><a href="${repo.homepage && repo.homepage}">Visit site</a></small>
+            <a href="${repo.html_url}">${repo.name}</a>
+            ${repo.homepage && `<small><a href="${repo.homepage}">Visit site</a></small>`}
           </h3>
           <p class="description">${repo.description}</p>
           `;

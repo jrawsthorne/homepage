@@ -1,0 +1,70 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #f0f2f5;
+}
+
+header {
+  background: #555;
+  color: #eee;
+  padding: 20px;
+}
+
+header div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+header a:hover, header a:active {
+  color: #909090;
+}
+
+header a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main h4 {
+  font-size: 25px;
+}
+
+.repo {
+  margin: 20px 0;
+}
+
+.repo h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.repo .description {
+  margin-bottom: 15px;
+}
+
+.repo li {
+  margin: 5px 0;
+}
+
+a:hover, a:active {
+  color: #909090;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+small {
+  font-size: 0.9rem;
+}

@@ -1,6 +1,26 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   background: #f0f2f5;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #909090;
 }
 
 header {
@@ -9,23 +29,13 @@ header {
   padding: 20px;
 }
 
+header a {
+  color: #eee;
+}
+
 header div {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-header h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-header a:hover, header a:active {
-  color: #909090;
-}
-
-header a {
-  color: #fff;
-  text-decoration: underline;
 }
 
 main {
@@ -34,37 +44,9 @@ main {
   padding: 20px;
 }
 
-main h4 {
-  font-size: 25px;
-}
-
-.repo {
-  margin: 20px 0;
-}
-
-.repo h3 {
-  font-size: 25px;
-  margin-bottom: 10px;
+#projects h2 {
   font-weight: bold;
-}
-
-.repo .description {
-  margin-bottom: 15px;
-}
-
-.repo li {
-  margin: 5px 0;
-}
-
-a:hover, a:active {
-  color: #909090;
-}
-
-a {
-  color: #555;
-  text-decoration: none;
-}
-
-small {
-  font-size: 0.9rem;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 20px;
 }
